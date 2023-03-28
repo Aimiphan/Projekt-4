@@ -43,14 +43,23 @@ footer {
     margin-top: auto;
     background-color: #939D9F;
     margin-bottom: 0px;
-
+    text-decoration: none;
     }
+
+    footer p {
+      color: green;
+      }
+
 footer ul {
-  margin-left: -35px;
-  }
-  footer ul li {
+  margin-left: -40px;
   list-style: none;
+  text-decoration: none;
+  }
+
+  footer ul li {
+  list-style-type: none;
 }
+
 
 /*Specielt på forskellige sider*/
 
