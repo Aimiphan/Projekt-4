@@ -34,7 +34,19 @@ h1 {
 /*Navigation*/
 
 /*Footer*/
+footer {
+    height: auto;
+    margin-top: auto;
+    background-color: #939D9F;
+    margin-bottom: 0px;
 
+    }
+footer ul {
+  margin-left: -35px;
+  }
+  footer ul li {
+  list-style: none;
+}
 
 /*Specielt på forskellige sider*/
 
@@ -112,7 +124,7 @@ width: 9vh;
     display: inline-block;
     font-size: 13px;
     margin-inline: 180px;
-    
+
 
   }
 /*Kontakt siden*/
