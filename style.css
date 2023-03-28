@@ -19,10 +19,14 @@ main {
 header {
     display: flex;
     justify-content: space-around;
+    height: 40px;
 }
 
-h2 {
+.tekstheader {
     font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
 }
 
 h1 {
