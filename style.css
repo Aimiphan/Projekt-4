@@ -1,4 +1,7 @@
 /*Til alle sider*/
+.tekstbold{ 
+  font-weight: bold;
+}
 
 body {
     background-color: #F6FBFB;
