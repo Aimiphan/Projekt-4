@@ -19,10 +19,14 @@ main {
 header {
     display: flex;
     justify-content: space-around;
+    height: 40px;
 }
 
-h2 {
+.tekstheader {
     font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
 }
 
 h1 {
@@ -34,6 +38,27 @@ h1 {
 /*Navigation*/
 
 /*Footer*/
+footer {
+    height: auto;
+    margin-top: auto;
+    background-color: #939D9F;
+    margin-bottom: 0px;
+    text-decoration: none;
+    }
+
+    footer p {
+      color: green;
+      }
+
+footer ul {
+  margin-left: -40px;
+  list-style: none;
+  text-decoration: none;
+  }
+
+  footer ul li {
+  list-style-type: none;
+}
 
 
 /*Specielt på forskellige sider*/
@@ -112,7 +137,6 @@ width: 9vh;
     display: inline-block;
     font-size: 13px;
     margin-inline: 180px;
-    border-radius: 8px;
   }
 
 /*Kontakt siden*/
