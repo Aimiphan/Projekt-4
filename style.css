@@ -144,7 +144,7 @@ width: 9vh;
     padding-top: 30px;
 }
 
-.tekstiboks {
+.tekstiboks{
     color: white;
     margin: auto;
     padding-top: 25px;
@@ -165,13 +165,29 @@ width: 9vh;
     padding: 10px;
     width: 305px;
     margin: 20px auto;
-    text-align: center;
+    text-align: left;
     background-color: #FF6075;
     margin-top: -80px;
     border-style: solid;
     border-color: grey;
 
   }
+  .eventboks2 {
+    padding: 10px;
+    width: 305px;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #E5F1F0;
+    margin-top: -80px;
+    border-style: solid;
+    border-color: grey;
+
+  }
+
+  .eventoverskift, .eventtekst, .tilmeldtext {
+    color: #12454F;
+  }
+
   .img {
     padding: 10px;
     width: 405px;
@@ -183,18 +199,20 @@ width: 9vh;
       height:auto;
     }
 
-  .tilbowling{
+  .tilbowling, .tilmeldtext{
 font-size: 15px;
 }
 
-.bowlingoverskift{
+.bowlingoverskift, .eventoverskift{
 font-size: 20px;
 }
 
-  .bowlingtekst {
+  .bowlingtekst, .eventtekst {
     margin-top: 10px;
     line-height: 25px;
     font-size: 13px;
+    text-align: left;
+    margin-left: 20px;
   }
 
 /*Opret event siden*/
