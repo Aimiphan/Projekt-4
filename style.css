@@ -162,25 +162,40 @@ width: 9vh;
   }
 
   .eventboks1 {
-    position: relative;
-    margin: 325px auto 10px;
-    width: calc(100% - 50px);
-    height: 547px;
-    background-color: green;
+    padding: 10px;
+    width: 305px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #FF6075;
+    margin-top: -80px;
+    border-style: solid;
+    border-color: grey;
 
   }
+  .img {
+    padding: 10px;
+    width: 405px;
+    margin: 20px auto;
+    }
 
-  .eventboks1 img {
-    position: absolute;
-    top: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - -341px);
-    height: 20rem;
-    margin-top: -200px;
+  .img img {
+      max-width:100%;
+      height:auto;
+    }
+
+  .tilbowling{
+font-size: 15px;
+}
+
+.bowlingoverskift{
+font-size: 20px;
+}
+
+  .bowlingtekst {
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 13px;
   }
-
-
 
 /*Opret event siden*/
 .eventboks{
