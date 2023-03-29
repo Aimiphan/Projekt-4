@@ -171,6 +171,21 @@ width: 9vh;
     margin-inline: 180px;
   }
 
+  .eventbuttontilmeld{
+    background-color: #21444E;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-inline: 180px;
+border-radius: 20px;
+margin-right: 20px;
+margin-left: 20px;
+  }
+
 /*Kontakt siden*/
 
 
@@ -185,6 +200,112 @@ width: 9vh;
 }
 .bowlinginfo{
     text-align: center;
+}
+
+.tilmedlingblanket{
+width: 314px;
+height: 390px;
+background-color: #FF6075;
+margin: auto;
+border-radius: 25px;
+}
+
+.inputfelter{
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 186px;
+  font-size: 11px;
+  border-color: #000000;
+  border-style:solid;
+}
+
+.bowlingkejler{
+width: 50vh;
+height: 30vh;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.Tilmelddignu{
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tekstitilmeld{
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* det der holder tjek boksen det hele */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  justify-content: space-evenly;
+}
+
+/* gemmer tjek boks */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* layout på tjek boks*/
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #00FF00;
+  border-radius: 50px;
+}
+
+/* hover eFFekt */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* når tjek boks er tjekket, bliver grøn baggrund */
+.container input:checked ~ .checkmark {
+  background-color: #FFFFFF;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  position: absolute;
+  display: none;
+}
+
+/* viser tjek eFter den er tjekket */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.tekstiblanket{
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+#tekst1{
+  margin-left: 30px;
+}
+#tekst2{
+  margin-left: -36px;
 }
 
 @media only screen and (max-width: 300px) {
