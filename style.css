@@ -1,6 +1,15 @@
+html{
+  height: 100%;
+  scroll-behavior: smooth;
+}
 /*Til alle sider*/
 .tekstbold{
   font-weight: bold;
+  
+}
+
+.pogi{
+  margin-left: 15px;
 }
 
 body {
@@ -234,6 +243,10 @@ margin-left: 20px;
 
 
 /*Bowling event*/
+.bagrundsbjælke{
+  background-color:#E5F1F0;
+}
+
 .bannerbowling{
     background-color:#12454F;
     height: 70px;
@@ -244,6 +257,7 @@ margin-left: 20px;
 }
 .bowlinginfo{
     text-align: center;
+    
 }
 
 .tilmedlingblanket{
@@ -272,6 +286,9 @@ width: 50vh;
 height: 30vh;
 margin-top: 10px;
 margin-bottom: 10px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
 }
 
 .Tilmelddignu{
