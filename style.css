@@ -5,7 +5,7 @@ html{
 /*Til alle sider*/
 .tekstbold{
   font-weight: bold;
-  
+
 }
 
 .pogi{
@@ -229,7 +229,13 @@ font-size: 20px;
     color: white;
     text-decoration: underline;
   }
-  
+
+  .her {
+    text-decoration: none;
+    color: #12454F;
+    text-decoration: underline;
+  }
+
 /*Opret event siden*/
 .eventboks{
     height: 258px;
@@ -318,6 +324,13 @@ font-size: 20px;
   margin-bottom: 30px;
 }
 
+.student{
+width: 400px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
+
 /*Bowling event*/
 .bagrundsbjælke{
   background-color:#E5F1F0;
@@ -334,7 +347,7 @@ font-size: 20px;
 }
 .bowlinginfo{
     text-align: center;
-    
+
 }
 
 .tilmedlingblanket{
