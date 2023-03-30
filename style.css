@@ -323,6 +323,13 @@ font-size: 20px;
   margin-bottom: 30px;
 }
 
+.student{
+width: 400px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
+
 /*Bowling event*/
 .bagrundsbjælke{
   background-color:#E5F1F0;
