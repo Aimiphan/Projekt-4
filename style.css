@@ -224,10 +224,10 @@ font-size: 20px;
     margin-left: 30px;
   }
 
-
   .læsmere {
     text-decoration: none;
     color: white;
+    text-decoration: underline;
   }
   
 /*Opret event siden*/
