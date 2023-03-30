@@ -5,6 +5,7 @@ html{
 /*Til alle sider*/
 .tekstbold{
   font-weight: bold;
+  text-decoration: underline;
   
 }
 
