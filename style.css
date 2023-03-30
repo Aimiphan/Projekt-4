@@ -525,5 +525,27 @@ margin-right: auto;
   /*Kontakt siden*/
   .flexkontakt {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+
+  .uclsoverskrift {
+    margin-left: 430px;
+    margin-top: 50px;
+  }
+
+  .student {
+    margin-left: 170px;
+    margin-bottom: 50px;
+  }
+
+  .tekstkontaktp {
+    margin-right: 200px;
+    font-size: 15px;
+  }
+
+  .oftess {
+    width: 80vh;
+  }
+
 }
