@@ -5,6 +5,7 @@ html{
 /*Til alle sider*/
 .tekstbold{
   font-weight: bold;
+  text-decoration: underline;
   
 }
 
@@ -228,6 +229,7 @@ font-size: 20px;
   .læsmere {
     text-decoration: none;
     color: white;
+    text-decoration: underline;
   }
   
 /*Opret event siden*/
