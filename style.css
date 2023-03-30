@@ -238,12 +238,13 @@ font-size: 20px;
 
 /*Opret event siden*/
 .eventboks{
-    height: 150px;
+    height: 258px;
     background-color: #ED6B78;
     margin-top: 25px;
 }
 .eventbutton {
     background-color: #21444E;
+    width: 80px;
     border: none;
     color: white;
     padding: 10px 32px;
@@ -253,6 +254,9 @@ font-size: 20px;
     font-size: 13px;
     margin-inline: 180px;
     border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-left: auto;
   }
 
   .eventbuttontilmeld{
