@@ -513,7 +513,6 @@ margin-right: auto;
     font-size: 15px;
     margin-top: 10px;
         }
-          }
 
   /*Forsiden*/
 
@@ -524,6 +523,5 @@ margin-right: auto;
   /*Kontakt siden*/
   .flexkontakt {
     display: flex;
-    flex-direction: row;
   }
 }
