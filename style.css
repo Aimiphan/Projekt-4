@@ -130,6 +130,10 @@ height:9vh ;
 width: 9vh;
 }
 
+.eventtilboks{
+  width: 100%;
+  margin-bottom: -30px;
+}
 /*slideshow*/
 #slideshowbillede {
     width: 100%;
