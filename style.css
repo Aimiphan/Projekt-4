@@ -5,7 +5,7 @@ html{
 /*Til alle sider*/
 .tekstbold{
   font-weight: bold;
-  
+
 }
 
 .pogi{
@@ -229,7 +229,13 @@ font-size: 20px;
     color: white;
     text-decoration: underline;
   }
-  
+
+  .her {
+    text-decoration: none;
+    color: #12454F;
+    text-decoration: underline;
+  }
+
 /*Opret event siden*/
 .eventboks{
     height: 150px;
@@ -311,7 +317,7 @@ font-size: 20px;
 }
 .bowlinginfo{
     text-align: center;
-    
+
 }
 
 .tilmedlingblanket{
