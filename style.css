@@ -254,6 +254,9 @@ font-size: 20px;
     font-size: 13px;
     margin-inline: 180px;
     border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-left: auto;
   }
 
   .eventbuttontilmeld{
