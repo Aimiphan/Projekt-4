@@ -470,5 +470,6 @@ margin-right: auto;
   /*Kontakt siden*/
   .flexkontakt {
     display: flex;
+    flex-direction: row;
   }
 }
