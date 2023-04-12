@@ -240,6 +240,42 @@ font-size: 20px;
     text-decoration: underline;
   }
 
+/*Oprettelse af event*/
+.opret {
+  text-align: center;
+  margin-top: 30px;
+  }
+
+  .dit {
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.eget {
+ font-size: 15px;
+}
+
+.arraninfo,.eventinfo, .billeder, .beskrivelse {
+text-align: center;
+margin-top: 50px;
+}
+.arraninfo input,.eventinfo input{
+text-align: center;
+
+}
+
+.felter {
+display: flex;
+padding: 10px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 7px;
+width: 253px;
+font-size: 10px;
+border-color: #000000;
+}
+
 /*Opret event siden*/
 .eventboks{
     height: 258px;
@@ -467,6 +503,8 @@ margin-right: auto;
 }
 
 @media only screen and (min-width: 1080px) {
+
+    /*Footer*/
   footer {
       padding: 20px;
       text-align: left;
