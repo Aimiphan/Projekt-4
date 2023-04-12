@@ -1,51 +1,106 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <title>Kontakt</title>
 </head>
 <body>
-    <header>
-        <!--Logo-->
-        <h2>Events</h2>
-        <h2>Oprettelse af event</h2>
-        <h2>Kontakt</h2>
-    </header>
+  <header>
+      <a href="index.html"> <img id="logo" src="img/logo.png" alt="logo"></a>
+      <a class="tekstheader" href="events.html">Events</a>
+      <a class="tekstheader" href="opret.html">Oprettelse af event</a>
+      <a class="tekstheader" href="kontakt.html">Kontakt</a>
+  </header>
 
     <main>
-        <h1>Oprettelse af event</h1>
-            <p>Opret dit event</p>
-            <p>Opret dit helt eget arrangement ved at udfylde punkterne.</p>
-
-        <section>
-            <p>Arrangør information:</p>
-            <p>Arrangørs fulde navn:</p>
-            <p>Arrangørs e-mail:</p>
-            <p>Uddannelse</p>
+        <section class="bannerbowling">
+          <h1>Oprettelse af event</h1>
         </section>
 
         <section>
-            <p>Event information</p>
-            <p>Titel på event:</p>
-            <p>Lokation/Mødested:</p>
-            <p>Dato:</p>
-            <p>Start tidspunkt:</p>
-            <p>Hvem kan deltage:</p>
-            <p>Pris:</p>
-            <p>Antal pladser:</p>
-            <p>Tilmeldingsfrist:</p>
-            <p>Billede(r)</p>
-            <p>Beskrivelse af event:</p>
-            <!--boks-->
-            <p>Jeg bekræfter, at jeg er indforstået med, at mine <br>
+          <p>Opret dit event</p>
+          <p>Opret dit helt eget arrangement ved at udfylde punkterne.</p>
+        </section>
+
+        <section>
+          <div class="arraninfo">
+            <p class="mainarran">Arrangør information</p>
+
+              <p class="arrangors">Arrangørs fulde navn:</p>
+              <input type="text" placeholder="Fulde navn" class="felter">
+              </input>
+              <p class="arrangors">Arrangørs e-mail:</p>
+              <input type="text" placeholder="E-mail" class="felter">
+              </input>
+              <p class="arrangors">Uddannelse</p>
+              <input type="text" placeholder="Uddannelse (fx Multimediedesigner)" class="felter">
+              </input>
+
+          </div>
+        </section>
+
+
+          <section>
+            <div class="eventinfo">
+              <p class="mainevent">Event information</p>
+
+              <p>Titel på event:</p>
+              <input type="text" placeholder="Fulde navn" class="felter">
+              </input>
+              <p>Lokation/Mødested:</p>
+              <input type="text" placeholder="E-mail" class="felter">
+              </input>
+              <p>Dato:</p>
+              <input type="text" placeholder="Uddannelse (fx Multimediedesigner)" class="felter">
+              </input>
+              <p>Start tidspunkt:</p>
+              <input type="text" placeholder="Uddannelse (fx Multimediedesigner)" class="felter">
+              </input>
+              <p>Hvem kan deltage:</p>
+              <input type="text" placeholder="Uddannelse (fx Multimediedesigner)" class="felter">
+              </input>
+              <p>Pris:</p>
+              <input type="text" placeholder="Uddannelse (fx Multimediedesigner)" class="felter">
+              </input>
+              <p>Antal pladser:</p>
+              <input type="text" placeholder="Uddannelse (fx Multimediedesigner)" class="felter">
+              </input>
+              <p>Tilmeldingsfrist:</p>
+              <input type="text" placeholder="Uddannelse (fx Multimediedesigner)" class="felter">
+              </input>
+
+            </div>
+
+          </section>
+
+          <section>
+            <div class="billeder">
+              <p>Billede(r)</p>
+              <button type="button" name="button"></button>
+              <p>Der er ikke valgt nogen fil</p>
+            </div>
+          </section>
+
+          <section>
+            <div class="beskrivelse">
+                <p>Beskrivelse af event</p>
+            </div>
+          </section>
+
+          <label id="tjek1" class="tjekket">
+            <input type="checkbox" checked="checked">
+            <p class="tekstiblanket">Jeg bekræfter, at jeg er indforstået med, at mine <br>
             personlige oplysninger bliver behandlet af UCLSocial.</p>
-            <p>Send</p>
-        </section>
-    </main>
+            <span class="checkmark"></span>
+            </label>
+
+                      <a href="#" class="eventbuttontilmeld">Send</a>
+
 
     <footer>
               <div class="pfooter">
