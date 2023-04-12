@@ -1,5 +1,5 @@
 //Kasper
-let billedergalleri = [
+/*let billedergalleri = [
     ["img/rød.png","img/gul.png","img/grøn.png"]
 ]
 
@@ -9,7 +9,7 @@ for(let i = 0; <galleri.lenght; i++) {
     let billedergalleri = galleri [i];
     select_element.innerHTML +="<div class'billederigalleri' > + '" billedegaleri[i][0]+ billedergalleri[i][1]++ billedergalleri[i][2]    
 }
-
+*/
 
 //Signe
 let countDownBowling = new Date("May 5, 2023 17:00:00").getTime();
