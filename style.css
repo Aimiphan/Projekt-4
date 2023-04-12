@@ -141,6 +141,7 @@ margin-bottom: 8px;
   width: 380px;
   margin: auto;
   height: 200px;
+  margin-bottom: 10px;
 }
 
 .countdownboks {
@@ -177,12 +178,6 @@ margin-bottom: 8px;
   font-size: 20px;
   text-align: center;
 }
-
-#næsteevent {
-  text-decoration: underline;
-  line-height: 0px;
-}
-
 #indtilnæsteevent {
   padding-top: 10px;
 }
