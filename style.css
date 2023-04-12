@@ -542,7 +542,7 @@ margin-right: auto;
   }
 
   .eventboks1 {
-    height: 450px;
+    height: 400px;
     width: 1500px;
     margin-left: 100px;
     order: 1;
@@ -554,10 +554,19 @@ margin-right: auto;
     width: 1000px;
     height: auto;
     z-index: 1;
-    transform: translate(-100px, -25px);
+    transform: translate(-100px, -45px);
     order: 2;
   }
 
+  .bowlingtekst {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .bowlingoverskift {
+    margin-top: 10px;
+  }
 
 
   /*Bowling*/
