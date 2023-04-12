@@ -155,6 +155,9 @@ width: 9vh;
     margin-left: auto;
     margin-right: auto;
 }
+.forsideboks1 {
+display: none;
+}
 
 .forsideimgboks {
     width: 224px;
@@ -170,7 +173,9 @@ width: 9vh;
     padding-top: 25px;
     text-align: center;
 }
-
+.tekstiboks1{
+ 
+}
 /*Events siden*/
 .overskifte {
   height: 68px;
@@ -531,8 +536,27 @@ margin-right: auto;
     height: 258px;
     display: flex;
   }
-  /*Forsiden*/
-
+  /*Forsiden*/ 
+  .forsideboks1 {
+    display: inline;
+    display: block;
+    width: 279px;
+    height: 371px;
+    background-color: #E5F1F0;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tekstiboks1{
+    color:#12454F;
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+  }
+.boksflex{
+  display: flex;
+}
+ 
   /*Event siden*/
 
   .bowlingsection {
