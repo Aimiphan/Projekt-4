@@ -230,7 +230,7 @@ display: none;
     text-align: center;
 }
 .tekstiboks1{
- 
+
 }
 /*Events siden*/
 .overskifte {
@@ -632,8 +632,7 @@ margin-right: auto;
 @media only screen and (min-width: 1080px) {
 <<<<<<< HEAD
 /*Footer*/
-
-  footer {
+footer {
     padding: 20px;
     text-align: left;
     text-decoration: none;
@@ -730,7 +729,7 @@ margin-right: auto;
     height: 258px;
     display: flex;
   }
-  /*Forsiden*/ 
+  /*Forsiden*/
   .forsideboks1 {
     display: inline;
     display: block;
@@ -750,7 +749,7 @@ margin-right: auto;
 .boksflex{
   display: flex;
 }
- 
+
 >>>>>>> d495fa0707c30fd81ec11b468e98e78e4047edef
   /*Event siden*/
 
