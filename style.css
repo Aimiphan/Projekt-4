@@ -155,6 +155,9 @@ width: 9vh;
     margin-left: auto;
     margin-right: auto;
 }
+.forsideboks1 {
+display: none;
+}
 
 .forsideimgboks {
     width: 224px;
@@ -170,7 +173,9 @@ width: 9vh;
     padding-top: 25px;
     text-align: center;
 }
-
+.tekstiboks1{
+ 
+}
 /*Events siden*/
 .overskifte {
   height: 68px;
@@ -370,12 +375,14 @@ margin-top: 10px;
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 13px;
-    margin-inline: 180px;
     border-radius: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90px;
   }
 
 /*Kontakt siden*/
@@ -459,7 +466,7 @@ margin-right: auto;
 
 .tilmedlingblanket{
 width: 314px;
-height: 390px;
+height: 410px;
 background-color: #FF6075;
 margin: auto;
 border-radius: 25px;
@@ -488,7 +495,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.Tilmelddignu{
+.tilmelddignu{
   color: #FFFFFF;
   text-align: center;
   font-weight: bold;
@@ -626,8 +633,27 @@ margin-right: auto;
     height: 258px;
     display: flex;
   }
-  /*Forsiden*/
-
+  /*Forsiden*/ 
+  .forsideboks1 {
+    display: inline;
+    display: block;
+    width: 279px;
+    height: 371px;
+    background-color: #E5F1F0;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tekstiboks1{
+    color:#12454F;
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+  }
+.boksflex{
+  display: flex;
+}
+ 
   /*Event siden*/
 
   .bowlingsection {
@@ -641,14 +667,12 @@ margin-right: auto;
     width: 1500px;
     margin-left: 100px;
     order: 1;
-    z-index: 0;
   }
 
 
   .bowlingimg {
     width: 1000px;
     height: auto;
-    z-index: 1;
     transform: translate(-100px, -45px);
     order: 2;
   }
@@ -663,8 +687,131 @@ margin-right: auto;
     margin-top: 10px;
   }
 
+  .konkurrencesection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks2 {
+    height: 400px;
+    width: 1500px;
+    margin-right: 100px;
+  }
+
+  .konkurrenceimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(100px, -60px);
+    margin-left: 100px;
+  }
+
+  .eventtekst {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .eventoverskift {
+    margin-top: 10px;
+  }
+
+
+  .tursection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks3 {
+    height: 400px;
+    width: 1500px;
+    margin-left: 100px;
+    order: 1;
+  }
+
+
+  .turimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(-200px, -45px);
+    order: 2;
+  }
+
+  .pubcrawlsection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks4 {
+    height: 400px;
+    width: 1500px;
+    margin-right: 100px;
+  }
+
+  .pubcrawlimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(100px, -35px);
+    margin-left: 100px;
+  }
 
   /*Bowling*/
+  .bbbowling{
+    display: flex;
+  }
+
+  .bowlingkejler {
+    order: 2;
+    width: auto;
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 70px;
+  }
+
+  .pogi {
+    order: 1;
+    margin-left: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .tilmedlingblanket {
+    width: 400px;
+    height: 510px;
+  }
+
+  .tilmelddignu {
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .tekstitilmeld {
+    margin-bottom: 30px;
+  }
+
+  .inputfelter {
+    margin-bottom: 20px;
+    width: 270px;
+    font-size: 15px;
+    border-color: #000000;
+    border-style:solid;
+  }
+
+  .tekstiblanket {
+    font-size: 11px;
+  }
+
+  .container {
+    padding-left: 36px;
+  }
+
+  .eventbuttontilmeld {
+    margin-top: 30px;
+  }
 
   /*Kontakt siden*/
   .flexkontakt {
