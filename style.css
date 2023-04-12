@@ -546,14 +546,12 @@ margin-right: auto;
     width: 1500px;
     margin-left: 100px;
     order: 1;
-    z-index: 0;
   }
 
 
   .bowlingimg {
     width: 1000px;
     height: auto;
-    z-index: 1;
     transform: translate(-100px, -45px);
     order: 2;
   }
@@ -568,6 +566,75 @@ margin-right: auto;
     margin-top: 10px;
   }
 
+  .konkurrencesection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks2 {
+    height: 400px;
+    width: 1500px;
+    margin-right: 100px;
+  }
+
+  .konkurrenceimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(100px, -60px);
+    margin-left: 100px;
+  }
+
+  .eventtekst {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .eventoverskift {
+    margin-top: 10px;
+  }
+
+
+  .tursection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks3 {
+    height: 400px;
+    width: 1500px;
+    margin-left: 100px;
+    order: 1;
+  }
+
+
+  .turimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(-200px, -45px);
+    order: 2;
+  }
+
+  .pubcrawlsection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks4 {
+    height: 400px;
+    width: 1500px;
+    margin-right: 100px;
+  }
+
+  .pubcrawlimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(100px, -35px);
+    margin-left: 100px;
+  }
 
   /*Bowling*/
 
