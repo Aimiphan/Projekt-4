@@ -252,6 +252,42 @@ font-size: 20px;
     text-decoration: underline;
   }
 
+/*Oprettelse af event*/
+.opret {
+  text-align: center;
+  margin-top: 30px;
+  }
+
+  .dit {
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.eget {
+ font-size: 15px;
+}
+
+.arraninfo,.eventinfo, .billeder, .beskrivelse {
+text-align: center;
+margin-top: 50px;
+}
+.arraninfo input,.eventinfo input{
+text-align: center;
+
+}
+
+.felter {
+display: flex;
+padding: 10px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 7px;
+width: 253px;
+font-size: 10px;
+border-color: #000000;
+}
+
 /*Opret event siden*/
 .eventboks{
     height: 258px;
@@ -400,7 +436,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.Tilmelddignu{
+.tilmelddignu{
   color: #FFFFFF;
   text-align: center;
   font-weight: bold;
@@ -479,6 +515,8 @@ margin-right: auto;
 }
 
 @media only screen and (min-width: 1080px) {
+
+    /*Footer*/
   footer {
       padding: 20px;
       text-align: left;
@@ -570,14 +608,12 @@ margin-right: auto;
     width: 1500px;
     margin-left: 100px;
     order: 1;
-    z-index: 0;
   }
 
 
   .bowlingimg {
     width: 1000px;
     height: auto;
-    z-index: 1;
     transform: translate(-100px, -45px);
     order: 2;
   }
@@ -592,8 +628,132 @@ margin-right: auto;
     margin-top: 10px;
   }
 
+  .konkurrencesection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks2 {
+    height: 400px;
+    width: 1500px;
+    margin-right: 100px;
+  }
+
+  .konkurrenceimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(100px, -60px);
+    margin-left: 100px;
+  }
+
+  .eventtekst {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .eventoverskift {
+    margin-top: 10px;
+  }
+
+
+  .tursection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks3 {
+    height: 400px;
+    width: 1500px;
+    margin-left: 100px;
+    order: 1;
+  }
+
+
+  .turimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(-200px, -45px);
+    order: 2;
+  }
+
+  .pubcrawlsection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks4 {
+    height: 400px;
+    width: 1500px;
+    margin-right: 100px;
+  }
+
+  .pubcrawlimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(100px, -35px);
+    margin-left: 100px;
+  }
 
   /*Bowling*/
+  .bagrundsbjælke{
+    display: flex;
+  }
+
+  .bowlingkejler {
+    order: 2;
+    width: auto;
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 70px;
+  }
+
+  .pogi {
+    order: 1;
+    margin-left: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .tilmedlingblanket {
+    width: 400px;
+    height: 520px;
+  }
+
+  .tilmelddignu {
+    margin-top: 30px;
+  }
+
+  .tekstitilmeld {
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+
+  .inputfelter {
+    margin-bottom: 20px;
+    width: 270px;
+    font-size: 15px;
+    border-color: #000000;
+    border-style:solid;
+  }
+
+  .tekstiblanket {
+    font-size: 11px;
+  }
+
+  .container {
+    padding-left: 36px;
+  }
+
+  .eventbuttontilmeld {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
 
   /*Kontakt siden*/
   .flexkontakt {
