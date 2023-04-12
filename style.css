@@ -253,7 +253,7 @@ font-size: 20px;
   margin-top: 30px;
   }
 
-  .dit {
+  .dit{
  font-size: 20px;
  font-weight: bold;
 }
@@ -271,7 +271,7 @@ text-align: center;
 
 }
 
-.felter {
+.felter, .line{
 display: flex;
 padding: 10px;
 margin-top: 10px;
@@ -282,6 +282,63 @@ width: 253px;
 font-size: 10px;
 border-color: #000000;
 }
+
+.felter {
+width: 253px;
+}
+
+.bibe {
+font-size: 20px;
+}
+
+.filerknap {
+  background-color: white;
+  border-radius: 7px;
+  border: solid;
+  border-color: #000000;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-inline: 180px;
+  margin-right: 20px;
+  margin-left: 20px;
+  }
+
+.beskiv {
+width: 288px;
+height: 258px;
+font-size: 10px;
+border-color: #000000;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+padding: 10px;
+margin-top: 10px;
+}
+
+.jatilsend{
+  font-size: 15px;
+  color: #21444E;
+}
+
+.sendknap {
+  background-color: #21444E;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
 
 /*Opret event siden*/
 .eventboks{
@@ -548,8 +605,8 @@ margin-right: auto;
         font-size: 30px;
       }
 
-      
-    .musikbilledeiboks{ 
+
+    .musikbilledeiboks{
      display: flex;
      flex-direction: row;
     }
