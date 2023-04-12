@@ -135,6 +135,12 @@ margin-bottom: 8px;
   visibility: hidden;
 
 }
+/*Countdown*/
+#countdownid {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
 
 /*slideshow*/
 #slideshowbillede {
