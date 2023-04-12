@@ -431,7 +431,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.Tilmelddignu{
+.tilmelddignu{
   color: #FFFFFF;
   text-align: center;
   font-weight: bold;
@@ -675,6 +675,61 @@ margin-right: auto;
   }
 
   /*Bowling*/
+  .bagrundsbjælke{
+    display: flex;
+  }
+
+  .bowlingkejler {
+    order: 2;
+    width: auto;
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 70px;
+  }
+
+  .pogi {
+    order: 1;
+    margin-left: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .tilmedlingblanket {
+    width: 400px;
+    height: 520px;
+  }
+
+  .tilmelddignu {
+    margin-top: 30px;
+  }
+
+  .tekstitilmeld {
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+
+  .inputfelter {
+    margin-bottom: 20px;
+    width: 270px;
+    font-size: 15px;
+    border-color: #000000;
+    border-style:solid;
+  }
+
+  .tekstiblanket {
+    font-size: 11px;
+  }
+
+  .container {
+    padding-left: 36px;
+  }
+
+  .eventbuttontilmeld {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
 
   /*Kontakt siden*/
   .flexkontakt {
