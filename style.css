@@ -94,7 +94,7 @@ margin-bottom: 8px;
 .footer ul li a:hover {
   text-decoration: underline;
 }
-.pfooter img {
+.footerimg img {
   display: inline-block;
    margin: 2px;
    width: 25px;
@@ -467,42 +467,58 @@ margin-right: auto;
 }
 
 @media only screen and (min-width: 1080px) {
-/*Footer*/
-
   footer {
     padding: 20px;
     text-align: left;
+    background-color: #939D9F;
     text-decoration: none;
     font-weight: bold;
-    display: flex;
+    color: white;
+      }
+  .pfooter {
+  margin-bottom: 15px;
+  display: inline-block;
+       width:120px;
+       height:120px;
+  }
+  .pfooter h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+  }
+  .pfooter p {
+    font-size: 10px;
+  }
+  .pfooter p, .footer ul, .sfooter p  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+        }
+  .footer {
+    flex: 1;
+    margin-right: 20px;
+    display: inline-block;
+     width:160px;
+     height:160px;
     }
-    .pfooter, .footer, .sfooter {
-      width: 30%;
-    }
-    .pfooter h3 {
-      font-size: 30px;
-    }
-    .pfooter p {
-      margin: 0;
-      font-size: 25px;
-    }
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
 
-    .pfooter img {
-      flex-direction: row;
-      justify-content: space-between;
-      margin-top: 10px;
-      height: 49px;
-      width: 49px;
-    }
-
-    .footer ul li a{
-      font-size: 30px;
-    }
-
-    .sfooter p {
-      font-size: 30px;
-    }
-
+  .footerimg img {
+    display: inline-block;
+     margin: 2px;
+     width: 25px;
+     height: 25px;
+  }
+  .sfooter p{
+    font-size: 15px;
+    margin-top: 10px;
+        }
 
   /*Forsiden*/
 
