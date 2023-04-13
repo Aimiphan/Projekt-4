@@ -125,78 +125,15 @@ margin-bottom: 8px;
     margin-top: 40px;
 }
 
+#fylde {
+height:9vh ;
+width: 9vh;
+}
+
 .eventtilboks{
   width: 100%;
   margin-bottom: -30px;
 }
-
-.eventtilboks2{
-  display: none;
-  visibility: hidden;
-
-}
-/*Countdown*/
-.countdownbaggrund {
-  background: rgba(229, 241, 240, 0.5);
-  width: 380px;
-  margin: auto;
-  height: 200px;
-  margin-bottom: 10px;
-}
-
-.countdownboks {
-  background-color: #12454F;
-  width: 90%;
-  height: 40%;
-  margin: auto;
-}
-
-.countdowntekst2 {
-  font-size: 20px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  word-spacing: 100px;
-}
-
-.countdowntekst3 {
-  font-size: 20px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  word-spacing: 50px;
-}
-
-.countdowntekst1 {
-  color: black;
-  font-size: 20px;
-  text-align: center;
-}
-#indtilnæsteevent {
-  padding-top: 10px;
-}
-
-.linje {
-  border-left: 3px solid white;
-  height: 90%;
-}
-
-.linje1 {
-  margin-left: 100px;
-  margin-top: -75px;
-}
-
-.linje2 {
-  margin-left: 220px;
-  margin-top: -65px;
-}
-
 /*slideshow*/
 #slideshowbillede {
     width: 100%;
@@ -210,9 +147,6 @@ margin-bottom: 8px;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-}
-.forsideboks1 {
-display: none;
 }
 
 .forsideimgboks {
@@ -229,9 +163,7 @@ display: none;
     padding-top: 25px;
     text-align: center;
 }
-.tekstiboks1{
- 
-}
+
 /*Events siden*/
 .overskifte {
   height: 68px;
@@ -308,99 +240,6 @@ font-size: 20px;
     text-decoration: underline;
   }
 
-/*Oprettelse af event*/
-.opret {
-  text-align: center;
-  margin-top: 30px;
-  }
-
-  .dit{
- font-size: 20px;
- font-weight: bold;
-}
-
-.eget {
- font-size: 15px;
-}
-
-.arraninfo,.eventinfo, .billeder, .beskrivelse {
-text-align: center;
-margin-top: 50px;
-}
-.arraninfo input,.eventinfo input{
-text-align: center;
-
-}
-
-.felter, .line{
-display: flex;
-padding: 10px;
-margin-top: 10px;
-margin-left: auto;
-margin-right: auto;
-border-radius: 7px;
-width: 253px;
-font-size: 10px;
-border-color: #000000;
-}
-
-.felter {
-width: 253px;
-}
-
-.bibe {
-font-size: 20px;
-}
-
-.filerknap {
-  background-color: white;
-  border-radius: 7px;
-  border: solid;
-  border-color: #000000;
-  color: black;
-  padding: 10px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin-inline: 180px;
-  margin-right: 20px;
-  margin-left: 20px;
-  }
-
-.beskiv {
-width: 288px;
-height: 258px;
-font-size: 10px;
-border-color: #000000;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-padding: 10px;
-margin-top: 10px;
-}
-
-.jatilsend{
-  font-size: 15px;
-  color: #21444E;
-}
-
-.sendknap {
-  background-color: #21444E;
-  border: none;
-  color: white;
-  padding: 10px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 11px;
-  border-radius: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 30px;
-}
-
-
 /*Opret event siden*/
 .eventboks{
     height: 258px;
@@ -431,14 +270,12 @@ margin-top: 10px;
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     font-size: 13px;
+    margin-inline: 180px;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 90px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
 /*Kontakt siden*/
@@ -522,7 +359,7 @@ margin-right: auto;
 
 .tilmedlingblanket{
 width: 314px;
-height: 410px;
+height: 390px;
 background-color: #FF6075;
 margin: auto;
 border-radius: 25px;
@@ -551,7 +388,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.tilmelddignu{
+.Tilmelddignu{
   color: #FFFFFF;
   text-align: center;
   font-weight: bold;
@@ -630,7 +467,6 @@ margin-right: auto;
 }
 
 @media only screen and (min-width: 1080px) {
-<<<<<<< HEAD
 /*Footer*/
 
   footer {
@@ -670,246 +506,9 @@ margin-right: auto;
 
   /*Forsiden*/
 
-=======
-
-    /*Footer*/
-  footer {
-      padding: 20px;
-      text-align: left;
-      text-decoration: none;
-      font-weight: bold;
-      display: flex;
-      }
-      .pfooter, .footer, .sfooter {
-        width: 30%;
-      }
-      .pfooter h3 {
-        font-size: 30px;
-      }
-      .pfooter p {
-        margin: 0;
-        font-size: 25px;
-      }
-
-      .pfooter img {
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 10px;
-        height: 49px;
-        width: 49px;
-      }
-
-      .footer ul li a{
-        font-size: 30px;
-      }
-
-      .sfooter p {
-        font-size: 30px;
-      }
-
-
-    .musikbilledeiboks{
-     display: flex;
-     flex-direction: row;
-    }
-
-    .eventtilboks{
-      display: none;
-      visibility: hidden;
-    }
-   .eventbutton{
-    margin: auto;
-   }
-   .eventboks{
-    columns: 2;
-   }
-
-  .eventtilboks2{
-    visibility:visible;
-    width: 100%;
-    height: 258px;
-    display: flex;
-  }
-  /*Forsiden*/ 
-  .forsideboks1 {
-    display: inline;
-    display: block;
-    width: 279px;
-    height: 371px;
-    background-color: #E5F1F0;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .tekstiboks1{
-    color:#12454F;
-    margin: auto;
-    padding-top: 25px;
-    text-align: center;
-  }
-.boksflex{
-  display: flex;
-}
- 
->>>>>>> d495fa0707c30fd81ec11b468e98e78e4047edef
   /*Event siden*/
 
-  .bowlingsection {
-    display: flex;
-    flex-direction: row;
-    margin-top: 120px;
-  }
-
-  .eventboks1 {
-    height: 400px;
-    width: 1500px;
-    margin-left: 100px;
-    order: 1;
-  }
-
-
-  .bowlingimg {
-    width: 1000px;
-    height: auto;
-    transform: translate(-100px, -45px);
-    order: 2;
-  }
-
-  .bowlingtekst {
-    width: 300px;
-    text-align: center;
-    margin: auto;
-  }
-
-  .bowlingoverskift {
-    margin-top: 10px;
-  }
-
-  .konkurrencesection {
-    display: flex;
-    flex-direction: row;
-    margin-top: 120px;
-  }
-
-  .eventboks2 {
-    height: 400px;
-    width: 1500px;
-    margin-right: 100px;
-  }
-
-  .konkurrenceimg {
-    width: 1000px;
-    height: auto;
-    transform: translate(100px, -60px);
-    margin-left: 100px;
-  }
-
-  .eventtekst {
-    width: 300px;
-    text-align: center;
-    margin: auto;
-  }
-
-  .eventoverskift {
-    margin-top: 10px;
-  }
-
-
-  .tursection {
-    display: flex;
-    flex-direction: row;
-    margin-top: 120px;
-  }
-
-  .eventboks3 {
-    height: 400px;
-    width: 1500px;
-    margin-left: 100px;
-    order: 1;
-  }
-
-
-  .turimg {
-    width: 1000px;
-    height: auto;
-    transform: translate(-200px, -45px);
-    order: 2;
-  }
-
-  .pubcrawlsection {
-    display: flex;
-    flex-direction: row;
-    margin-top: 120px;
-  }
-
-  .eventboks4 {
-    height: 400px;
-    width: 1500px;
-    margin-right: 100px;
-  }
-
-  .pubcrawlimg {
-    width: 1000px;
-    height: auto;
-    transform: translate(100px, -35px);
-    margin-left: 100px;
-  }
-
   /*Bowling*/
-  .bbbowling{
-    display: flex;
-  }
-
-  .bowlingkejler {
-    order: 2;
-    width: auto;
-    height: 250px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 70px;
-  }
-
-  .pogi {
-    order: 1;
-    margin-left: 70px;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-
-  .tilmedlingblanket {
-    width: 400px;
-    height: 510px;
-  }
-
-  .tilmelddignu {
-    margin-top: 25px;
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  .tekstitilmeld {
-    margin-bottom: 30px;
-  }
-
-  .inputfelter {
-    margin-bottom: 20px;
-    width: 270px;
-    font-size: 15px;
-    border-color: #000000;
-    border-style:solid;
-  }
-
-  .tekstiblanket {
-    font-size: 11px;
-  }
-
-  .container {
-    padding-left: 36px;
-  }
-
-  .eventbuttontilmeld {
-    margin-top: 30px;
-  }
 
   /*Kontakt siden*/
   .flexkontakt {
