@@ -47,7 +47,7 @@ for(let i = 0; i < dtmArray.length; i++) {
 
 
 //Aimi
-document.querySelectorAll('.dropdown-menu').forEach(function (dropDownList)
+
 
 //Claudia
 const myForm = document.getElementById("myForm");
