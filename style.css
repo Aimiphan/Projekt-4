@@ -107,18 +107,6 @@ margin-bottom: 8px;
 
 /*Specielt på forskellige sider*/
 
-#popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border: 1px solid black;
-    box-shadow: 0px 0px 10px black;
-  }
-  
 
 /*Forsiden*/
 .overskriftbaggrund {
@@ -719,7 +707,7 @@ footer {
     .beskiv {
       font-size: 15px;
     }
-
+    
     .felter {
     width: 794px;
     height: 25px;

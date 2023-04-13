@@ -7,7 +7,7 @@ let select_element = document.getElementById("");
 for(let i = 0; <galleri.lenght; i++) {
 
     let billedergalleri = galleri [i];
-    select_element.innerHTML +="<div class'billederigalleri' > + '" billedegaleri[i][0]+ billedergalleri[i][1]++ billedergalleri[i][2]
+    select_element.innerHTML +="<div class'billederigalleri' > + '" billedegaleri[i][0]+ billedergalleri[i][1]++ billedergalleri[i][2]    
 }
 */
 
@@ -17,7 +17,7 @@ let countDownBowling = new Date("May 5, 2023 17:00:00").getTime();
 let countDown = setInterval(function() {
 
     let iDag = new Date().getTime();
-
+    
     let dageIndtil = countDownBowling - iDag;
 
     let dage = Math.floor(dageIndtil / (1000 * 60 * 60 * 24));
@@ -49,18 +49,3 @@ for(let i = 0; i < dtmArray.length; i++) {
 //Aimi
 
 //Claudia
-const myForm = document.getElementById("myForm");
-const popup = document.getElementById("popup");
-const userNameSpan = document.getElementById("userName");
-
-myForm.addEventListener("submit", function(event) {
-  event.preventDefault();
-
-  const nameInput = document.getElementById("name");
-  const emailInput = document.getElementById("email");
-
-  if (nameInput.checkValidity() && emailInput.checkValidity()) {
-    userNameSpan.innerText = nameInput.value;
-    popup.style.display = "block";
-  }
-});
